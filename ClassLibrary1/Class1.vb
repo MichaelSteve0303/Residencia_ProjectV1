@@ -1,6 +1,5 @@
 ﻿Imports System.Data.SqlClient
 Public Class Class1
-    'No te olvides visitar Vaidrollteam.blogspot.com para encontrar más proyectos.
     Dim cnx As New SqlConnection("server=localhost\SQLEXPRESS;integrated security=true;Database=VaiInventario123")
 
     Public Function Login(usu As String, pass As String) As DataTable
